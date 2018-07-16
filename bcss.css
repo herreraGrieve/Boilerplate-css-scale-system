@@ -1,0 +1,40 @@
+:root{
+
+  /* SPACING */
+  --spacing-ratio: 2;
+  --start-spacing-value: 0.25rem;
+  --neg-start-spacing-value: calc(var(--start-spacing-value) * -1);
+  --s-6: calc(var(--s-5) * var(--spacing-ratio));
+  --s-5: calc(var(--s-4) * var(--spacing-ratio));
+  --s-4: calc(var(--s-3) * var(--spacing-ratio));
+  --s-3: calc(var(--s-2) * var(--spacing-ratio));
+  --s-2: calc(var(--s-1) * var(--spacing-ratio));
+  --s-1: var(--start-spacing-value);
+  --s-0: 0;
+  --s--1: var(--neg-start-spacing-value);
+  --s--2: calc( var(--s--1) * var(--spacing-ratio));
+  --s--3: calc(var(--s--2) * var(--spacing-ratio));
+
+  /* FONT */
+  --font-ratio: 1.2;
+
+  --f-8: calc(var(--f-7) * var(--font-ratio));
+  --f-7: calc(var(--f-6) * var(--font-ratio));
+  --f-6: calc(var(--f-5) * var(--font-ratio));
+  --f-5: calc(var(--f-4) * var(--font-ratio));
+  --f-4: calc(var(--f-3) * var(--font-ratio));
+  --f-3: calc(var(--f-2) * var(--font-ratio));
+  --f-2: calc(var(--f-1) * var(--font-ratio));
+  --f-1: calc(var(--f-0) * var(--font-ratio));
+  --f-0: 1em;
+  --f--1: calc(var(--f-0) / var(--font-ratio));
+  --f--2: calc(var(--f--1) / var(--font-ratio));
+  --f--3: calc(var(--f--2) / var(--font-ratio));
+
+  /* COLORS */
+  --gray-1: #333333;
+  --gray-0: #868686;
+  --gray--1: #b9b9b9;
+  --gray--2: #f2f2f2;
+
+}
